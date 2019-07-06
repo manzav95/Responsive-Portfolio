@@ -1,0 +1,278 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+    margin: auto;
+    font-size: 18px;
+    color: #777777;
+}
+
+.container-main{
+    height: auto;
+    min-height: 100%;
+    display: block;
+    margin-top: 0;
+    margin: auto;
+    background-image: url("../images/mooning.png");
+
+}
+
+.container-header{
+    background-color: #ffffff;
+    position: sticky;
+    top: 0px;
+    height: auto;
+    border-bottom: 2px solid #888888;
+}
+
+.header-nav{
+    width: 960px;
+    margin: auto;
+
+}
+
+h1{
+    font-family: Georgia, Times, Times New Roman, serif;
+    width: 200px;
+    padding: 25px 15px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    margin-top: 0px;
+    margin-bottom: 0;
+    font-size: 25px;
+
+}
+
+
+nav{
+    width: 260px;
+    text-align: right;
+    float: right;
+    overflow: auto;
+    margin-top: -67px;
+    margin-bottom: 0px;
+
+}
+
+li{
+    padding: 5px 0px 5px 10px;
+    text-align: center;
+    display: inline;
+}
+
+a{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #888888;
+    text-decoration: none;
+
+}
+
+.middle{
+    height: auto;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 55px;
+    width: auto;
+
+}
+
+.main-middle{
+    width: 960px;
+    margin: auto;
+    background-color: #ffffff;
+    height: auto;
+    margin-bottom: 40px;
+    padding-bottom: 15px;
+}
+
+.header-middle{
+    border-bottom: 2px solid #cccccc;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 2px;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.body-middle{
+    /* padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px; */
+    padding: 20px;
+    padding-top: 0px;
+    line-height: 34px;
+    width: auto;
+}
+
+#profileimg{
+    float: left;
+    overflow: auto;
+    margin-top: 10px;
+    margin-right: 10px;
+    /* margin-left: 4px; */
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column{
+    flex: 33.3%;
+}
+
+.column img{
+    padding: 10px 0px 25px 0px;
+}
+
+.nameMail{
+    width: 100%;
+}
+
+#message{
+    width: 100%;
+}
+
+.name-box,
+.email-box,
+.message-box{
+    padding: 25px 25px 10px 25px;
+    /* border: 1px solid black; */
+    margin-right: 20px;
+}
+
+
+.submit-btn{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+input[type=submit]{
+    color: white;
+    background-color: #4aaaa5;
+    padding: 10px 15px;
+    margin-left: 4px;
+    width: auto;
+    border: none;
+    border-radius: 5px;
+
+}
+#name,
+#email-address,
+#message{
+    padding: 10px;
+    /* font-size: 15px; */
+}
+
+
+.footer-main{
+    height: 55px;
+    border-top: 5px solid #4aaaa5;
+    background-color: #666666;
+    position: absolute;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+footer{
+    font-size: 14px;
+    color: #b3b3b3;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 1px;
+}
+
+
+/*For viewing webpage on a desktop/laptop computer with screens smaller than 980px*/
+@media only screen and (max-width: 980px){
+
+    body{
+        max-width: 980px;
+
+        
+    }
+    .container-main{
+        width: 100%;
+    }
+
+    .header-nav{
+        width: auto;
+
+    }
+    #headerMain{
+        margin-left: 20px;
+
+    }
+
+    nav{
+        margin-right: 20px;
+    }
+
+    .middle{
+        margin-right: 20px;
+    }
+
+    .main-middle{
+        width: auto;
+
+    }
+
+}
+
+/*For viewing webpage on tablets with screens smaller than 768px*/
+@media only screen and (max-width: 768px){
+
+}
+
+/* For viewing webpage on smart phones with screens smaller than 640px */
+@media only screen and (max-width: 640px){
+
+    .container-main{
+        margin-right: 0;
+    }
+    .container-header{
+        /* border: 1px solid black; */
+        width: 100%;
+        overflow: hidden;
+    }
+    .header-nav{
+        height: auto;
+        width: 100%;
+
+    }
+
+    nav{
+        /* border: 1px solid black; */
+        width: auto;
+        text-align: center;
+        margin: 0px;
+        float: none;
+    }
+
+    #headerMain{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    h1{
+        width: 640px;
+        margin: auto;
+    }
+    
+    #profileimg{
+        width: 530px;
+        margin: auto;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 10px;
+        }
+
+    p{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+}
