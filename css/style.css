@@ -98,14 +98,14 @@ a{
 
 .body-middle{
     /* padding-bottom: 20px;
-    padding-right: 20px;
-    padding-left: 20px; */
+    padding-right: 20px;*/
+    padding-left: 20px; 
     padding: 20px;
     padding-top: 0px;
+    
     line-height: 34px;
     width: auto;
 }
-
 #profileimg{
     float: left;
     overflow: auto;
@@ -216,6 +216,20 @@ footer{
         margin-right: 20px;
     }
 
+    .column{
+        flex: 50%;
+        width: 100%;
+        grid-column-gap: 20px;
+    }
+
+    a img{
+        border-spacing: 10px;
+    }
+
+    .body-middle img{
+        width: 100%;
+    }
+
     .main-middle{
         width: auto;
 
@@ -251,6 +265,7 @@ footer{
         text-align: center;
         margin: 0px;
         float: none;
+        font-size: 20px;
     }
 
     #headerMain{
@@ -258,12 +273,25 @@ footer{
         margin-right: 0px;
     }
     h1{
-        width: 640px;
+        width: auto;
         margin: auto;
+        font-size: 30px;
     }
-    
+
+    li a{
+        padding-left: 15px;
+    }
+    ul{
+        padding-left: 0px;
+        padding-right: 20px;
+    }
+    h2{
+        width: 100%;
+    }
+    .body-middle img{
+        width: 100%;
+    }
     #profileimg{
-        width: 530px;
         margin: auto;
         padding-top: 5px;
         padding-bottom: 5px;
@@ -273,6 +301,21 @@ footer{
     p{
         padding-left: 10px;
         padding-right: 10px;
+    }
+
+    .column img{
+        width: 100%;
+        padding-right: 20px;
+    }
+    
+    .row{
+        padding-left: 0px;
+    }
+
+
+    .column{
+        flex: 100%;
+        width: 100%;
     }
     
 }
