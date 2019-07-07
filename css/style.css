@@ -216,6 +216,11 @@ footer{
         margin-right: 20px;
     }
 
+    #profileImg{
+        width: 25%;
+
+    }
+
     .column{
         flex: 50%;
         width: 100%;
@@ -257,6 +262,10 @@ footer{
         height: auto;
         width: 100%;
 
+    }
+
+    #profileImg{
+        width: 100%;
     }
 
     nav{
