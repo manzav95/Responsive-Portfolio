@@ -99,8 +99,7 @@ a{
 .body-middle{
     /* padding-bottom: 20px;
     padding-right: 20px;*/
-    padding-left: 20px; 
-    padding: 20px;
+    padding: 25px;
     padding-top: 0px;
     
     line-height: 34px;
@@ -186,6 +185,10 @@ footer{
     bottom: 1px;
 }
 
+a img .project1{
+    border: 1px solid red;
+}
+
 
 /*For viewing webpage on a desktop/laptop computer with screens smaller than 980px*/
 @media only screen and (max-width: 980px){
@@ -231,8 +234,12 @@ footer{
         border-spacing: 10px;
     }
 
+    .body-middle{
+        padding-left: 30px;
+    }
+
     .body-middle img{
-        width: 100%;
+        width: 95%;
     }
 
     .main-middle{
@@ -244,6 +251,9 @@ footer{
 
 /*For viewing webpage on tablets with screens smaller than 768px*/
 @media only screen and (max-width: 768px){
+    .portfolioImg{
+        margin-right: 5%;
+    }
 
 }
 
@@ -296,6 +306,11 @@ footer{
     }
     h2{
         width: 100%;
+    }
+
+    .body-middle{
+        padding-left: 25px;
+        padding-right: 25px;
     }
     .body-middle img{
         width: 100%;
